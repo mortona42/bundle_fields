@@ -1,0 +1,14 @@
+{
+  "name": "drupal/bundle_fields",
+  "type": "drupal-module",
+  "description": "Add fields to a bundle that can be used in templates.  They are edited per bundle, rather than per instance.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/bundle_fields",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/bundle_fields",
+    "source": "http://cgit.drupalcode.org/bundle_fields"
+  },
+  "require": { }
+}

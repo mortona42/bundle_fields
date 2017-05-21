@@ -1,0 +1,5 @@
+name: Bundle Fields
+type: module
+description: Add fields to a bundle that can be used in templates.  They are edited per bundle, rather than per instance.
+core: 8.x
+package: Bundle Fields

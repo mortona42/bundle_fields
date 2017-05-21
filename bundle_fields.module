@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains bundle_fields.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bundle_fields_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bundle_fields module.
+    case 'help.page.bundle_fields':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add fields to a bundle that can be used in templates.  They are edited per bundle, rather than per instance.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
